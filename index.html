@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheWatcher</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="backend.js"></script>
+    <base target="_blank" rel="noopener noreferrer">
+</head>
+<body>
+    <div class="search" style="display: flex;justify-content: center;">
+        <select name="type" id="viewtype" style="height: 30px;margin: 12px;margin-right: 0px;text-align: center;">
+            <option value="0">Movie</option>
+            <option value="1">TV Series</option>
+        </select>
+        <input style="margin: 12px;width: 20%;margin-right: 0px;margin-left: 0px;height: 25px;" type="text" id="title" />
+        <button style="margin: 12px;margin-left: 0px;height: 30px;" id="std" onclick="srch()"><i class="fa fa-search"></i></button>
+        
+    </div>
+    <div style="justify-content: center;width:100%">
+    <div id="tiles" style="display: flex;flex-wrap: wrap;margin: 12px;"></div>
+
+</body>
+</html>
