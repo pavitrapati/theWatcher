@@ -24,7 +24,7 @@ if (document.getElementById('viewtype').value==0){
 else{
     querylink='https://api.themoviedb.org/3/search/tv?query=';
     extidlink='https://api.themoviedb.org/3/tv/';
-    varvidlink='https://vidsrc.to/embed/tv/';
+    varvidlink='https://vidsrc.in/embed/tv/';
     flag=1;
 }
 
